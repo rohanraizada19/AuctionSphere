@@ -1,0 +1,139 @@
+/* Import Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light grey background (Google-like) */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  padding: 12px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Logout Button */
+.btn-danger {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+/* Main Content */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Forms */
+.form-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+  background: #007bff;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-success {
+  background: #28a745;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.btn-success:hover {
+  background: #218838;
+}
+
+/* Auction Cards */
+.card {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+/* Apply Background Image to the Landing Page */
+.landing-container {
+  background: url("./assets/background.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Ensure Text is Readable */
+.landing-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.landing-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
