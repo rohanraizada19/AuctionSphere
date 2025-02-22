@@ -1,4 +1,4 @@
-// filepath: /c:/Users/skull/OneDrive/Documents/mern/nj/AICTE-Internship-P2-Week1-main/src/components/server.js
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
